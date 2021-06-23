@@ -17,6 +17,10 @@ dependencies {
 	implementation 'junit:junit:4.13.1'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
+
+	// Jedis
+	implementation group: 'redis.clients', name: 'jedis', version: '3.6.1'
+
 }
 
 test {
