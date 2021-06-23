@@ -21,6 +21,9 @@ dependencies {
 	// Jedis
 	implementation group: 'redis.clients', name: 'jedis', version: '3.6.1'
 
+	// Jackson
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
+
 }
 
 test {
