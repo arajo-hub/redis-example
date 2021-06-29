@@ -23,9 +23,6 @@ public class JedisConfig {
             jedisClusterNodes.add(new HostAndPort("192.168.30.136", 7001));
             jedisClusterNodes.add(new HostAndPort("192.168.30.136", 7002));
 
-            //필요하다면 pool 정의
-            //JedisPoolConfig jedisPoolConfig = new JedisPoolConfig()
-
             return new JedisCluster(jedisClusterNodes);
         }catch (Exception e){
             return null;
