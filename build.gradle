@@ -27,8 +27,6 @@ dependencies {
 	// Jackson
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
 
-	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
-
 }
 
 test {
